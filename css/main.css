@@ -310,7 +310,6 @@ nav .navigation li a:hover{
     margin: 20px;
     padding: 0px;
     /* background-color: var(--btncolor); */
-    background-color: var(--fontcolor);
     /* background: rgba(255, 255, 255, 0.33); */
     border-radius: 8px;
 /*    box-shadow: 0 4px 30px rgba(226, 226, 226, 0.1);*/    
