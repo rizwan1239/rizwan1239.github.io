@@ -166,6 +166,18 @@ nav .navigation li a:hover{
     transition: opacity .3s;
     /* margin-top: 50px; */
 }
+.a {
+    color: var(--fontcolor);
+}
+.a:link {
+    color: var(--fontcolor);
+}
+.a:active {
+    color: var(--fontcolor);
+}
+.a:visited {
+    color: var(--fontcolor);
+}
 .demo a:hover {
     opacity: .5;
 }
@@ -308,19 +320,19 @@ nav .navigation li a:hover{
     outline: none;
     border: none;
 }
-.game .content .box .text{
-    position: absolute;
-    bottom: 0;
-    left: 30px;
-    width: 280px;
-    color: var(--backcolor);
-    font-family: var(--pfont);
-    text-align: center;
-    border-radius: 10px 10px 0px 0px;
-    background-color: var(--fontcolor);
-    box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
-    -webkit-box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
-    -moz-box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
+.game .content .box .text {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        width: 280px;
+        color: var(--fontcolor);
+        font-family: var(--pfont);
+        text-align: center;
+        border-radius: 10px 10px 0px 0px;
+        background-color: var(--backcolor);
+        box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
+        -webkit-box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
+        -moz-box-shadow: 2px -62px 46px 0px rgba(0,0,0,0.36);
 }
 .game .content .box .text h3{
     padding: 10px 24px;
